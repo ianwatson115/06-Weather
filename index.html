@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Dashboard</title>
+    <title>US Weather</title>
+    <link rel="stylesheet" href="style.css" >
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
@@ -11,10 +13,16 @@
         <h1>US Weather</h1>
     </div>
 
-    <div>
-        
+    <div class="container row">
+        <aside class="col-lg-4 bg-dark">
+            <h3 class="aside">Search for a city</h3>
+            <div>
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn my-2 my-sm-0" type="submit">Search</button>
+            </div>
+            <ul class="aside history">History</ul>
+        </aside>
     </div>
-    
 
 
 
